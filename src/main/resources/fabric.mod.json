@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "vsip",
+	"version": "${version}",
+	"name": "VSIP",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/vsip/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.tess.vsip.VSIP"
+		]
+	},
+	"mixins": [
+		"vsip.mixins.json"
+	],
+	"depends": {
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

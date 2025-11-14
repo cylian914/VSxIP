@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "fr.tess.vsip.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChunkManagmentMixin",
+    "ChunkMap$TrackedEntityMixin",
+    "ChunkMapMixin",
+    "McHelperMixin",
+    "NewChunkTrackingGraphMixin",
+    "PortalMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "CrossPortalEntityRendererMixin",
+    "EntityRenderDispatchMixin",
+    "MixinViewAreaVanillaAcessor",
+    "MyBuiltChunkStorageMixin"
+  ]
+}
